@@ -1,0 +1,63 @@
+.filter-wrapper {
+  padding: 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  width: 100%;
+}
+
+.filter-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Spread across full width */
+  width: 100%;
+  gap: 20px;
+  flex-wrap: nowrap;
+}
+
+.filter-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1; /* Take equal space */
+  min-width: 150px;
+}
+
+.filter-item input,
+.filter-item select {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  background: transparent;
+  width: 100%;
+}
+
+.divider {
+  height: 30px;
+  width: 1px;
+  background-color: #ccc;
+}
+
+.slider-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  min-width: 220px;
+}
+
+.range-label {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.salary-values {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 5px;
+  text-align: right;
+}
+
+.icon-1,.icon-2,.icon-3 {
+  color: gray;
+}

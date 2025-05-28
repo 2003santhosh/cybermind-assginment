@@ -1,0 +1,56 @@
+/* Center the full header */
+.header-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Rounded, shadowed header container */
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  background-color: #fff;
+  padding: 14px 30px;
+  border-radius: 999px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Logo styling */
+.logo {
+  width: 40px;
+  height: 40px;
+  background-color: #ddd;
+  border-radius: 8px;
+}
+
+/* Nav link styles */
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #1f1f1f;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* Create button styling */
+.create-button {
+  background: linear-gradient(90deg, #a32ef5, #6b2eff);
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.create-button:hover {
+  opacity: 0.9;
+}
